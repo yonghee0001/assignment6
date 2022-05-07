@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+body{
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4%;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    border-bottom: 1.5px solid #c0c0c0;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo a{
+    font-size: 28px;
+    font-weight:600;
+    color:rgb(3, 182, 48);
+    margin: 2em;
+}
+
+nav a{
+    color: black;
+    font-size: 25px;
+}
+.navbar_menu{
+    display: flex;
+    padding: 10px 25px;  
+}
+.navbar_menu li:hover {
+    background-color:rgb(3, 182, 48);
+    border-radius: 5px;
+}
+
+
+.main-container {
+    width:85%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 1.5em;
+}
+
+.classworks h1{
+    color: rgb(121, 121, 121);
+    font-weight:400;
+    font-size: x-large;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+.main-container aside {
+    float: left;
+}
+
+main img{
+    width: 100%;
+}
+
+aside{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+aside img{
+    width: 96%;
+    box-shadow: 5px 5px 1px #c9c9c9;
+    overflow: auto;
+}
+.imageGroup1 img{
+    width: 98%;
+}
+.imageGroup1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cycle-slideshow{
+    z-index: -1;
+}
+.slideshow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideshow{
+    margin: 10px 0;
+    float: left;
+    width: 99%;
+}
+
+.imageGroup3{
+    display:inline-flex;
+    justify-content: space-between;
+}
+.imageGroup3 img{
+    width: 98%;
+}
+
+.sideproject h1{
+    color: rgb(121, 121, 121);
+    font-weight:400;
+    font-size: x-large;
+    display:inline-block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    color:#888888;
+    text-align: center;
+    padding: 30px;
+    font-size:medium;
+    font-weight: 200;
+    border-top: 1.5px solid silver;
+    background-color: white;
+}
